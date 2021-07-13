@@ -1,4 +1,4 @@
-package one.digitalInnovation.personApi;
+package one.digitalInnovation.personApi.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -4,17 +4,15 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import one.digitalInnovation.personApi.Person;
+import one.digitalInnovation.personApi.entity.Person;
 
 @RestController
-@RequestMapping("/api/people")
+@RequestMapping("/api/v1/people")
 
 public class PersonController {
 
-	@GetMapping
-	public Person getBook() {
-	Person person = new Person();
-	person.setFirstName("John");
-	return person;
-	}
+    @GetMapping
+    public String getBook() {
+        return "API test";
+    }
 }

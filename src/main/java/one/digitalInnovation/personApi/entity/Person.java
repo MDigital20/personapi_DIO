@@ -1,4 +1,4 @@
-package one.digitalInnovation.personApi;
+package one.digitalInnovation.personApi.entity;
 
 import java.time.LocalDate;
 import java.util.List;
