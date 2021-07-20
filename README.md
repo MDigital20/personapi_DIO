@@ -1,4 +1,4 @@
-# <u>Sistema simples de gerenciamento de pessoas em API REST com Spring Boot.</u>
+# <u>Sistema de gerenciamento de pessoas em API REST com Spring Boot.</u>
 
 
 
